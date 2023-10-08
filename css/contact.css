@@ -1,0 +1,363 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+main section #sedtion1{
+    margin-top: 130px;
+}
+#galaxy-box1{
+    float: left;
+    display: inline-flexbox;
+    width: 50%;
+    height: 680px;
+    padding: 10px;
+    margin: 0;
+    padding: 60px 40px;
+    /*background-image: url(../image/contact2.jpg);
+    background-size: cover;*/
+    z-index: -5;
+}
+#galaxy-box11{
+    padding: 120px 0 80px;
+}
+#galaxy-box11 p{
+    margin-top: 40px;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#galaxy-box12{
+    width: 100%;
+    overflow: hidden;
+}
+#galaxy-box12 #galaxy-box21 {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+}
+#galaxy-box12 #galaxy-box22 {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#galaxy-box12 #galaxy-box22 ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    margin-right: 10px;
+    bottom: 0;
+}
+.fa-youtube,.fa-square-instagram,.fa-square-facebook{
+    transition: 0.3s;;
+}
+#galaxy-box12 #galaxy-box22 ul li:hover .fa-square-facebook{
+    color: blue;
+}
+#galaxy-box12 #galaxy-box22 ul li:hover .fa-square-instagram{
+    color: rgb(162, 5, 157);
+}
+#galaxy-box12 #galaxy-box22 ul li:hover .fa-youtube{
+    color: rgb(255, 0, 0);
+}
+#galaxy-box12 #galaxy-box22 ul li a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    margin-right: 10px;
+    bottom: 0;
+}
+#galaxy-box2{
+    float: left;
+    display: inline-flexbox;
+    width: 50%;
+    height: 680px;
+    background: rgb(78,172,255);
+    /*background: linear-gradient(225deg, rgba(78,172,255,1) 0%, rgba(120,194,255,1) 100%);*/
+    background: linear-gradient(225deg, rgba(78,172,255,1) 0%, rgba(255,120,120,1) 100%);
+    margin: 0;
+    position: relative;
+    z-index: -5;
+}
+#galaxy-box2 #conatctbox{
+    width: 80%;
+    height: 50%;
+    background: #93ccff55;
+    color: rgb(19, 19, 19);
+    padding: 20px 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#galaxy-box2 #conatctbox #large{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 55px 0;
+}
+#galaxy-box2 #conatctbox span {
+    font-size: 20px;
+}
+#galaxy-box2 #conatctbox a{
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+#galaxy-box2 #conatctbox p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+main section #section2{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+#galaxy-box4{
+    float: right;
+    display: inline-flexbox;
+    width: 50%;
+    height: 680px;
+    padding: 10px;
+    margin: 0;
+    padding: 60px 40px;
+    background-image: url("../image/contact1.jpg");
+    background-size: cover;
+}
+#galaxy-box41{
+    padding: 120px 0 80px;
+    opacity: 0;
+    cursor: pointer;
+}
+#galaxy-box41 p{
+    margin-top: 40px;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#galaxy-box42{
+    width: 100%;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+}
+#galaxy-box42 #galaxy-box421 {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+}
+#galaxy-box42 #galaxy-box422 {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#galaxy-box42 #galaxy-box422 ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    margin-right: 10px;
+    bottom: 0;
+}
+.fa-youtube,.fa-square-instagram,.fa-square-facebook{
+    transition: 0.3s;;
+}
+#galaxy-box42 #galaxy-box422 ul li:hover .fa-square-facebook{
+    color: blue;
+}
+#galaxy-box42 #galaxy-box422 ul li:hover .fa-square-instagram{
+    color: rgb(162, 5, 157);
+}
+#galaxy-box42 #galaxy-box422 ul li:hover .fa-youtube{
+    color: rgb(255, 0, 0);
+}
+#galaxy-box42 #galaxy-box422 ul li a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    margin-right: 10px;
+    bottom: 0;
+}
+#galaxy-box3{
+    float: left;
+    display: inline-flexbox;
+    width: 50%;
+    height: 680px;
+    background: rgb(15,80,138);
+    /*background: linear-gradient(225deg, rgba(15,80,138,1) 0%, rgba(0,22,40,1) 100%);*/
+    background: linear-gradient(45deg, rgba(78,172,255,1) 0%, rgba(255,120,120,1) 100%);
+    margin: 0;
+    position: relative;
+}
+#galaxy-box3 #conatctbox2{
+    width: 80%;
+    height: 50%;
+    background: #ff9393aa;
+    color: rgb(24, 24, 24);
+    padding: 20px 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#galaxy-box3 #conatctbox2 #large2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 55px 0;
+}
+#galaxy-box3 #conatctbox2 span {
+    font-size: 20px;
+}
+#galaxy-box3 #conatctbox2 a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+#galaxy-box3 #conatctbox2 p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#footer-box12{
+    width: 100%;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+#footer-box12 #footer-box21 {
+    float: left;
+    width: 50%;
+    padding: 20px 30px;
+    font-size: 40px;
+    color: rgb(63, 63, 63);
+}
+#footer-box12 #footer-box22 {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#footer-box12 #footer-box22 ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.fa-youtube,.fa-square-instagram,.fa-square-facebook{
+    transition: 0.3s;;
+}
+#footer-box12 #footer-box22 ul li:hover .fa-square-facebook{
+    color: blue;
+}
+#footer-box12 #footer-box22 ul li:hover .fa-square-instagram{
+    color: rgb(162, 5, 157);
+}
+#footer-box12 #footer-box22 ul li:hover .fa-youtube{
+    color: rgb(255, 0, 0);
+}
+#footer-box12 #footer-box22 ul li a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    margin-right: 10px;
+    bottom: 0;
+}
+#footer2{
+    width: 100%;
+    padding: 40px 30px 20px 30px;
+    position: relative;
+}
+#footericon{
+    width: 90%;
+    display: inline-block;
+}
+#footericon p{
+    font-size: 8.8rem;
+    display: inline;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+#footericon p span{
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+#footericon p span:hover{
+    -webkit-text-fill-color: rgb(0, 0, 0);
+}
+#footercopy{
+    position: absolute;
+    right: -14rem;
+    bottom: 2.5rem;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    font-size: 1rem;
+    opacity: .6;
+}
+
+/* media queries */
+@media only screen and (max-width: 1100px) {    
+    #galaxy-box1{
+        float: none;
+        width: 100%;
+    }
+    #galaxy-box2{
+        padding: 25%;
+        float: none;
+        width: 100%;
+    }
+    #galaxy-box3{
+        float: none;
+        padding: 15% auto;
+        width: 100%;
+    }
+    #galaxy-box4{
+        float: none;
+        width: 100%;
+    }
+    #footericon p{
+        font-size: 6.8rem;
+    }
+}
+@media only screen and (max-width: 680px) {
+    #footer-box12 #footer-box21 {
+        float: none;
+    }
+    #footer-box12 #footer-box22 {
+        float: none;
+    }
+    #footericon p{
+        font-size: 4rem;
+    }
+}

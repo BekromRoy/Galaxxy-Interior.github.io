@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo/logo4.png">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Galaxy Interior</title>
+</head>
+<body>
+    <header>
+        <nav id="galaxy-navbar">
+            <a href="/"><img src="logo/logo4.png" alt="Galaxxy Interior"></a>
+            <ul>
+                <li></li>
+                <li><a href="/">Home<hr class="active"></a></li>
+                <li><a href="/about/">About Us<hr></a></li>
+                <li id="galaxy-design-items" onclick="navsubmenuShow()"><a href="#">Design Galaxy <i class="fa-solid fa-caret-down"></i><hr></a></li>
+                <li><a href="#">Recent Project<hr></a></li>
+                <li><a href="#">Review<hr></a></li>
+                <li><a href="/contact/">Contact Us<hr></a></li>
+                <li><a href="/faq/">FAQ<hr></a></li>
+            </ul>
+            <div id="search-button">
+                <button id="galaxy-search" onclick="mySearchBox()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button id="galaxy-menu" onclick="myMenuBox()"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+        <nav id="galaxy-subnavbar">
+            <ul>
+                <li><a href="#">Living Room Design<hr></a></li>
+                <li><a href="#">Bed Room Design<hr></a></li>
+                <li><a href="#">Moduler Kitcken Design<hr></a></li>
+                <li><a href="#">Dining Room Design<hr></a></li>
+                <li><a href="#">Modern Restroom Design<hr></a></li>
+                <li><a href="#">Kids Fun Room Design<hr></a></li>
+            </ul>
+        </nav>
+        <div id="searchdiv">
+            <div id="searchinput">
+                <input type="text" name="searchbox" id="searchbox" placeholder="Enter text to search" maxlength="50">
+                <button id="searchboxText" onclick="searchboxText()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <div id="menudiv">
+            <div id="submenu">
+                <ol>
+                    <li><a href="/">Home</a><hr></li>
+                    <li><a href="/about/">About Us</a><hr></li>
+                    <li onclick="subsubmenu()">Design Galaxy<i class="fa-solid fa-circle-arrow-right"></i><hr></li>
+                    <li><a href="#">Recent Project</a><hr></li>
+                    <li><a href="#">Review</a><hr></li>
+                    <li><a href="/contact/">Contact Us</a><hr></li>
+                    <li><a href="/faq/">FAQ</a><hr></li>
+                </ol>
+            </div>
+            <div id="subsubmenu">
+                <ol>
+                    <li onclick="submenu()">Design Galaxy<i class="fa-solid fa-circle-arrow-left"></i><hr></li>
+                    <li><a href="#">Living Room Design</a><hr></li>
+                    <li><a href="#">Bed Room Design</a><hr></li>
+                    <li><a href="#">Moduler Kitcken Design</a><hr></li>
+                    <li><a href="#">Dining Room Design</a><hr></li>
+                    <li><a href="#">Modern Restroom Design</a><hr></li>
+                    <li><a href="#">Kids Fun Room Design</a><hr></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div id="footer1">
+            <div id="footer-box12">
+                <div id="footer-box21">
+                    <pre>World class <br>Galaxxy design <br>SMART BESPOKE<br>INTERIORS</pre>
+                </div>
+                <div id="footer-box22">
+                    <ul>
+                        <li><a href="https://facebook.com/galaxxy-interior" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="https://instagram.com/galaxy-interior" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="https://youtube.com/galaxxy-interior" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer2">
+            <div id="footericon">
+                <p><span>g</span><span>a</span><span>l</span><span>a</span><span>x</span><span>y</span><span>&nbsp;</span></p>
+                <p><span>i</span><span>n</span><span>t</span><span>e</span><span>r</span><span>i</span><span>o</span><span>r</span></p>
+            </div>
+            <div id="footercopy">
+                <p>&#169; Galaxxy 2023 | All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/22884efc59.js" crossorigin="anonymous"></script>
+    <script src="js/navbar.js" crossorigin="anonymous"></script>
+    <script src="js/index.js" crossorigin="anonymous"></script>
+</body>
+</html>

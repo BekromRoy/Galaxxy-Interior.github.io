@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background: linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(255,255,255,1) 100%);
+    top: 0;
+}
+#galaxy-navbar{
+    background-color: rgba(27, 27, 27, 0.92);
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px 40px;
+}
+#galaxy-navbar ul,img{
+    display: inline-flex;
+}
+#galaxy-navbar ul{
+    height: 62px;
+}
+#galaxy-navbar ul li{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    color: aliceblue;
+}
+#galaxy-navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#galaxy-navbar hr {
+    background-color: rgb(78, 172, 255);
+    height: 3px;
+    border: none;
+    border-radius: 2px;
+    width: 0%;
+    transition: 0.4s;
+}
+#galaxy-navbar hr.active {
+    width: 100%;
+}
+#galaxy-navbar ul li a:hover hr{
+    width: 80%;
+}
+#galaxy-navbar img{
+    width: 70px;
+}
+#galaxy-navbar #search-button{
+    float: right;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 42px;
+}
+#galaxy-navbar #search-button #galaxy-search{
+    padding: 13px 16px;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-top: 30px;
+    border: none;
+    transition: 0.1s;
+    cursor: pointer;
+}
+#galaxy-navbar #search-button #galaxy-search:hover {
+    border: 2px solid  rgb(7, 136, 249);
+    color: rgb(7, 136, 249);
+    padding: 11px 14px;
+    font-size: 25px;
+}
+header #searchdiv{
+    width: 70%;
+    height: 180px;
+    background-color: rgba(27, 27, 27, 0.88);
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    transition: 0.6s;
+    display: none;
+}
+header #searchdiv #searchinput{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding: 5px 0;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+header #searchdiv #searchinput input{
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    width: 80%;
+}
+header #searchdiv #searchinput input:focus{
+    border: none;
+    outline: none;
+}
+header #searchdiv #searchinput button{
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0,-50%);
+    background-color: rgb(27, 27, 27);
+    padding: 12px 14px;
+    color: aliceblue;
+    cursor: pointer;
+}
+#galaxy-navbar #search-button #galaxy-menu{
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-top: 30px;
+    border: none;
+    transition: 0.01s;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: none;
+}
+#galaxy-navbar #search-button #galaxy-menu:hover {
+    border: 2px solid  rgb(7, 136, 249);
+    color: rgb(7, 136, 249);
+    padding: 10px 14px;
+    font-size: 25px;
+    margin-left: 18px;
+}
+header #menudiv{
+    min-width: 98%;
+    min-height: 380px;
+    background-color: rgba(27, 27, 27, 0.88);
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    transition: 0.6s;
+    display: none;
+    padding: 20px 0;
+}
+header #menudiv #submenu{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    padding: 20px 40px;
+    background-color: rgba(27, 27, 27, 0.4);
+    border-radius: 15px;
+    display: block;
+}
+header #menudiv #submenu ol li{
+    list-style-type: none;
+    margin: 10px 0;
+    color: aliceblue;
+    font-size: 24px;
+}
+header #menudiv #submenu ol li i{
+    color: aliceblue;
+    font-size: 22px;
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+}
+header #menudiv #submenu ol li:hover hr{
+    background-color: rgb(7, 136, 249);
+}
+header #menudiv #submenu ol li hr{
+    background-color: rgb(56, 56, 56);
+}
+header #menudiv #submenu ol li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;
+}
+header #menudiv #subsubmenu{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    padding: 20px 40px;
+    background-color: rgba(27, 27, 27, 0.4);
+    border-radius: 15px;
+    display: none;
+}
+header #menudiv #subsubmenu ol li{
+    list-style-type: none;
+    margin: 10px 0;
+    color: aliceblue;
+    font-size: 24px;
+}
+header #menudiv #subsubmenu ol li i{
+    color: aliceblue;
+    font-size: 22px;
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+}
+header #menudiv #subsubmenu ol li:hover hr{
+    background-color: rgb(7, 136, 249);
+}
+header #menudiv #subsubmenu ol li hr{
+    background-color: rgb(56, 56, 56);
+}
+header #menudiv #subsubmenu ol li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;
+}
+#galaxy-subnavbar{
+    background-color: rgba(27, 27, 27, 0.92);
+    margin: 10px;
+    border-radius: 15px;
+    display: none;
+    height: 62px;
+    text-align: center;
+}
+#galaxy-subnavbar ul{
+    height: 62px;
+    margin: auto;
+    display: inline-flex;
+}
+#galaxy-subnavbar ul li{
+    list-style-type: none;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+#galaxy-subnavbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#galaxy-subnavbar hr {
+    background-color: rgb(78, 172, 255);
+    height: 3px;
+    border: none;
+    border-radius: 2px;
+    width: 0%;
+    transition: 0.4s;
+}
+#galaxy-subnavbar hr.active {
+    width: 100%;
+}
+#galaxy-subnavbar ul li a:hover hr{
+    width: 80%;
+}
+#footer1{
+    width: 100%;
+}
+#footer-box12{
+    width: 100%;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+#footer-box12 #footer-box21 {
+    float: left;
+    width: 50%;
+    padding: 20px 30px;
+    font-size: 40px;
+    color: rgb(63, 63, 63);
+}
+#footer-box12 #footer-box22 {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#footer-box12 #footer-box22 ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.fa-youtube,.fa-square-instagram,.fa-square-facebook{
+    transition: 0.3s;;
+}
+#footer-box12 #footer-box22 ul li:hover .fa-square-facebook{
+    color: blue;
+}
+#footer-box12 #footer-box22 ul li:hover .fa-square-instagram{
+    color: rgb(162, 5, 157);
+}
+#footer-box12 #footer-box22 ul li:hover .fa-youtube{
+    color: rgb(255, 0, 0);
+}
+#footer-box12 #footer-box22 ul li a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    margin-right: 10px;
+    bottom: 0;
+}
+#footer2{
+    width: 100%;
+    padding: 40px 30px 20px 30px;
+    position: relative;
+}
+#footericon{
+    width: 90%;
+    display: inline-block;
+}
+#footericon p{
+    font-size: 8.8rem;
+    display: inline;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+#footericon p span{
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+#footericon p span:hover{
+    -webkit-text-fill-color: rgb(0, 0, 0);
+}
+#footercopy{
+    position: absolute;
+    right: -14rem;
+    bottom: 2.5rem;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    font-size: 1rem;
+    opacity: .6;
+}
+
+/* media queries */
+@media only screen and (max-width: 1100px) {
+    #galaxy-navbar ul{
+        display: none;
+    }
+    #galaxy-navbar #search-button #galaxy-menu{
+        display: block;
+    }
+    #galaxy-subnavbar{
+        display: none;
+    }
+    #footericon p{
+        font-size: 6.8rem;
+    }
+}
+@media only screen and (max-width: 680px) {
+    #footer-box12 #footer-box21 {
+        float: none;
+    }
+    #footer-box12 #footer-box22 {
+        float: none;
+    }
+    #footericon p{
+        font-size: 4rem;
+    }
+}
